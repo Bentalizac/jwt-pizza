@@ -116,9 +116,17 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.47.2",
-    "@types/node": "^22.7.4"
+    "@types/node": "^22.7.4",
+    "nyc": "^17.1.0",
+    "playwright-test-coverage": "^1.2.12",
+    "vite-plugin-istanbul": "^6.0.2"
   },
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "test:coverage": "nyc --reporter=json-summary --reporter=text playwright test",
+    "dev": "vite",
+    "test": "playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
