@@ -92,3 +92,11 @@ test('purchase with login', async ({ page }) => {
     // Check balance
     await expect(page.getByText('0.008')).toBeVisible();
   });
+
+
+test("About Page", async ({ page }) => { 
+    await page.goto('/');
+    await page.goto('/about');
+    await expect(page.locator('main')).toBeVisible();
+});
+
