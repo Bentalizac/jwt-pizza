@@ -85,7 +85,7 @@ export default function About() {
           At JWT Pizza, our employees are more than just pizza makers. They are culinary artists who are deeply passionate about their craft. They approach each pizza with creativity, precision, and a
           genuine love for what they do. From experimenting with unique flavor combinations to perfecting the cooking process, our employees are constantly pushing the boundaries of what a pizza can
           be. Their dedication and expertise result in pizzas that are not only delicious but also a reflection of their passion and commitment. We are grateful for our talented team and the
-          incredible pizzas they create day in and day out. I needed to make a change here for the commit to work.
+          incredible pizzas they create day in and day out.
         </p>
       </div>
     </View>
